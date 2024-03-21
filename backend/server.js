@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cors({
-    origin: ["https://localhost:3000", "https://mern-task-manager-app-api-yfr4.onrender.com"]
+    origin: ["https://localhost:3000", "https://mern-task-manager-app-r8gn.onrender.com"]
 }));
 app.use("/api/tasks/", taskRoutes);
 
